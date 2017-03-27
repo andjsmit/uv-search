@@ -1,0 +1,30 @@
+{
+  "options": {
+    "searchWithinEnabled": true,
+    "zoomToSearchResultsEnabled": false,
+    "leftPanelEnabled": true,
+
+    "footerPanelEnabled": true,
+
+    "bookmarkEnabled": false,
+    "downloadEnabled": false,
+    "embed Enabled": false,
+    "feedbackEnabled": false,
+    "fullscreenEnabled": true,
+    "minimiseButtons": true,
+    "moreInfoEnabled": true,
+    "openEnabled": false,
+    "printEnabled": false,
+    "shareEnabled": true
+  },
+  "content": {
+    "bookmark": "Add to bookmarks",
+    "download": "Download",
+    "embed": "Embed",
+    "feedback": "Feedback",
+    "exitFullScreen": "Exit Full Screen",
+    "fullScreen": "Full Screen",
+    "open": "Open",
+    "share": "Share"
+  }
+}

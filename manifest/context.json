@@ -1,0 +1,94 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost/iiif/manifest/context.json",
+  "@type": "sc:Manifest",
+  "label": "IIIF Test",
+  "thumbnail": "http://pmp.ulib.iupui.edu/loris/test/test1.jp2/full/!200,200/0/default.jpg",
+  "viewingHint": "non-paged",
+  "metadata": [
+    {"Purpose": "Test IIIF"},
+    {"Misc":["IIIF","HOCR"]}
+  ],
+  "service": [
+    {
+      "@context": "http://iiif.io/api/search/0/context.json",
+      "@id": "http://localhost/iiif/search/fishy.json",
+      "profile": "http://iiif.io/api/search/0/search"
+    }
+  ],
+  "sequences":[
+    {
+      "@type": "sc:Sequence",
+      "label": "Test Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost/iiif/test/canvas/test1",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 607,
+          "height": 599,
+          "images": [
+            {
+              "@id": "http:localhost/iiif/test/images/test1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://pmp.ulib.iupui.edu/loris/test/test1.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 607,
+                "height": 599,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://pmp.ulib.iupui.edu/loris/test/test1.jp2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://localhost/iiif/test/canvas/test1"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "http:localhost/iiif/test/contentAsText/test1",
+              "@type": "sc:AnnotationList",
+              "label": "Text of this page"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost/iiif/test/canvas/test2",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 792,
+          "height": 735,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://pmp.ulib.iupui.edu/loris/test/test2.jp2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 792,
+                "height": 735,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://pmp.ulib.iupui.edu/loris/test/test2.jp2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://localhost/iiif/test/canvas/test2"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "http:localhost/iiif/test/contentAsText/test2",
+              "@type": "sc:AnnotationList",
+              "label": "Text of this page"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

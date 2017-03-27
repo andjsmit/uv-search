@@ -1,0 +1,32 @@
+{
+  "@context": "http://iiif.io/api/search/0/context.json",
+  "@id": "http://localhost/iiif/search/this.json?q=fishy",
+  "@type": "sc:AnnotationList",
+  "version": "1234",
+  "within": {
+    "@type": "sc:Layer",
+    "total": 1
+  },
+  "startIndex": 0,
+  "resources": [
+    {
+      "@id": "http://localhost/iiif/test/annos/searchResults/test157,495,257,588",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "fishy"
+      },
+      "on": "http://localhost/iiif/test/canvas/test1#xywh=57,495,257,588"
+    },
+  ],
+  "hits": [
+    {
+      "@type": "search:Hit",
+      "annotations": ["http://localhost/iiif/test/annos/searchResults/test157,495,257,588"],
+      "match": "fishy",
+      "before": "Sounds",
+      "after": "to me."
+    }
+  ]
+}
