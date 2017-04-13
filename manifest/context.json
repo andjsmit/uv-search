@@ -6,8 +6,14 @@
   "thumbnail": "http://pmp.ulib.iupui.edu/loris/test/test1.jp2/full/!200,200/0/default.jpg",
   "viewingHint": "non-paged",
   "metadata": [
-    {"Purpose": "Test IIIF"},
-    {"Misc":["IIIF","HOCR"]}
+    {
+      "label" : "Purpose",
+      "value" : "Test IIIF"
+    },
+    {
+      "label" : "Misc",
+      "value" : ["IIIF","HOCR"]
+    }
   ],
   "service": [
     {
