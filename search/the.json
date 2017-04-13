@@ -1,0 +1,32 @@
+{
+  "@context": "http://iiif.io/api/search/0/context.json",
+  "@id": "http://localhost/iiif/search/the.json?q=the",
+  "@type": "sc:AnnotationList",
+  "within": {
+    "@type": "sc:Layer",
+    "total": 1
+  },
+  "startIndex": 0,
+  "resources": [
+    {
+      "@id": "http://localhost/iiif/test/annos/searchResults/test1354,27,121,72",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "the"
+      },
+      "on": "http://localhost/iiif/test/canvas/test1#xywh=354,27,121,72"
+    },
+    {
+      "@id": "http://localhost/iiif/test/annos/searchResults/test214,559,179,107",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "the"
+      },
+      "on": "http://localhost/iiif/test/canvas/test2#xywh=14,559,179,107"
+    }
+  ]
+}

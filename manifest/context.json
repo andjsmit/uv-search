@@ -12,7 +12,7 @@
   "service": [
     {
       "@context": "http://iiif.io/api/search/0/context.json",
-      "@id": "http://localhost/iiif/search/fishy.json",
+      "@id": "http://localhost/iiif/search/the.json",
       "profile": "http://iiif.io/api/search/0/search"
     }
   ],

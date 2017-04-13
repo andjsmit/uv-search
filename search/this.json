@@ -9,20 +9,20 @@
   "startIndex": 0,
   "resources": [
     {
-      "@id": "http://localhost/iiif/test/annos/searchResults/test156,27,475,99",
+      "@id": "http://localhost/iiif/test/annos/searchResults/test156,27,174,72",
       "@type": "oa:Annotation",
       "motivation": "sc:painting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "chars": "This"
       },
-      "on": "http://localhost/iiif/test/canvas/test1#xywh=56,27,475,99"
-    },
+      "on": "http://localhost/iiif/test/canvas/test1#xywh=56,27,174,72"
+    }
   ],
   "hits": [
     {
       "@type": "search:Hit",
-      "annotations": ["http://localhost/iiif/test/annos/searchResults/test156,27,475,99"],
+      "annotations": ["http://localhost/iiif/test/annos/searchResults/test156,27,174,72"],
       "match": "this",
       "before": "",
       "after": "is the"

@@ -10,20 +10,20 @@
   "startIndex": 0,
   "resources": [
     {
-      "@id": "http://localhost/iiif/test/annos/searchResults/test157,495,257,588",
+      "@id": "http://localhost/iiif/test/annos/searchResults/test157,495,200,93",
       "@type": "oa:Annotation",
       "motivation": "sc:painting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "chars": "fishy"
       },
-      "on": "http://localhost/iiif/test/canvas/test1#xywh=57,495,257,588"
-    },
+      "on": "http://localhost/iiif/test/canvas/test1#xywh=57,495,200,93"
+    }
   ],
   "hits": [
     {
       "@type": "search:Hit",
-      "annotations": ["http://localhost/iiif/test/annos/searchResults/test157,495,257,588"],
+      "annotations": ["http://localhost/iiif/test/annos/searchResults/test157,495,200,93"],
       "match": "fishy",
       "before": "Sounds",
       "after": "to me."
